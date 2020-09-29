@@ -13,7 +13,11 @@
 // Edit only the code between the lines (below)
 // -----------------------------------------------------------------
 function decodeMessage(string, notCode) {
-  // complete the function
+  let message = string;
+  for (x = 0; x < notCode.length; x++) {
+    message = message.replace(notCode[x], "");
+  }
+  return message;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

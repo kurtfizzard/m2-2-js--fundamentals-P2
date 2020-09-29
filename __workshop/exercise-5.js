@@ -6,7 +6,17 @@
 // Edit only the code between the lines (below)
 // -----------------------------------------------------------------
 function itemIsPresent(array, item) {
-  // code here
+  if (array.includes(item)) {
+    return true;
+  } else {
+    return false;
+  }
+  // for (x = 0; x < array.length; x++) {
+  //   if (array[x] === item) {
+  //     return true;
+  //   } else {
+  //     return false;
+  //   }
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

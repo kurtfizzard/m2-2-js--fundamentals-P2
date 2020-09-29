@@ -9,7 +9,13 @@
 // Edit only the code between the lines (below)
 // -----------------------------------------------------------------
 function greetLong(list) {
-  // list is an array of strings
+  let newList = [];
+  list.forEach((name) => {
+    if (name.length >= 4) {
+      newList.push("Hello " + name);
+    }
+  });
+  return newList;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

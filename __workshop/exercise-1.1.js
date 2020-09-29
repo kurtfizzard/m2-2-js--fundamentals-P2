@@ -8,9 +8,17 @@
 // Edit only the code between the lines (below)
 // -----------------------------------------------------------------
 function countNames(fullName) {
-  // complete the function
-  return fullName.split(" ");
+  var count = 1;
+  for (var x = 0; x <= fullName.length; x++) {
+    if (fullName[x] === " ") {
+      count = count + 1;
+    }
+  }
+  return count;
 }
+
+console.log(countNames("Insert Name Here"));
+
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
 //

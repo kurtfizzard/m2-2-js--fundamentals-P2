@@ -9,7 +9,8 @@
 // Edit only the code between the lines (below)
 // -----------------------------------------------------------------
 function getMax(num1, num2) {
-  // code here
+  let greaterOne = Math.max(num1, num2);
+  return greaterOne;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

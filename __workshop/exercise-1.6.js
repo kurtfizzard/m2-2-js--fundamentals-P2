@@ -10,7 +10,12 @@
 // Edit only the code between the lines (below)
 // -----------------------------------------------------------------
 function removeStringFromArray(array, string) {
-  // complete the function
+  for (x = 0; x < array.length; x++) {
+    if (array[x] === string) {
+      array.splice(x, 1);
+    }
+  }
+  return array;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

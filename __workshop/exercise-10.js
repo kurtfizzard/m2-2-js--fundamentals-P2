@@ -8,7 +8,15 @@
 // Edit only the code between the lines (below)
 // -----------------------------------------------------------------
 function allLong(list) {
-  // list is an array of strings
+  let everyLength = "";
+  list.forEach((element) => {
+    if (element.length >= 5) {
+      everyLength = true;
+    } else {
+      everyLength = false;
+    }
+  });
+  return everyLength;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
